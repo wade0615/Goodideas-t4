@@ -49,4 +49,12 @@ main .container {
 main section {
   height: 300px;
 }
+
+footer .container {
+  max-width: 1084px;
+}
+
+footer .col {
+  height: 300px;
+}
 /*# sourceMappingURL=index.css.map */
