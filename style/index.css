@@ -41,4 +41,12 @@ header nav .customize-navbar-brand {
 header nav span {
   font-size: 15px;
 }
+
+main .container {
+  max-width: 1084px;
+}
+
+main section {
+  height: 300px;
+}
 /*# sourceMappingURL=index.css.map */
