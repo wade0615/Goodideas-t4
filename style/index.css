@@ -1,4 +1,5 @@
 * {
+  outline: solid 1px red;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -57,8 +58,34 @@ main .container {
   max-width: 1084px;
 }
 
-main section {
-  height: 300px;
+main section .hotsale-img {
+  padding: 0;
+}
+
+main section .hotsale {
+  padding: 72px 65px;
+}
+
+main section .hotsale h2 {
+  margin-bottom: 30px;
+  padding: 0 32px;
+  line-height: 1.38em;
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-size: 42px;
+  letter-spacing: 0.022em;
+  text-align: center;
+}
+
+main section .hotsale p {
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: 0.11em;
+  line-height: 1.8em;
+}
+
+main section img {
+  width: 100%;
 }
 
 footer .container {
