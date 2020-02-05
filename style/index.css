@@ -143,6 +143,10 @@ main section .connect p {
   word-spacing: 0.43em;
 }
 
+main section .connect-posts h3 {
+  margin-bottom: 18px;
+}
+
 footer .container {
   max-width: 1084px;
 }
