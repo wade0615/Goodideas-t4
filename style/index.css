@@ -208,6 +208,10 @@ main section .connect-posts::before {
   background-size: contain;
 }
 
+footer {
+  background-color: blue;
+}
+
 footer .container {
   max-width: 1084px;
 }
