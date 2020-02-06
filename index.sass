@@ -1,5 +1,5 @@
 *
-    outline: solid 1px red
+    // outline: solid 1px red
     box-sizing: border-box
 
 figure
@@ -44,8 +44,10 @@ header
                 color: #F9C947
         
 main
+    background: #FFFFFF url("../image/bg-body.png")
     .container
         max-width: 1084px
+        background-color: #fff
     section        
         // height: 300px
         img
@@ -54,6 +56,8 @@ main
             padding: 0
         .hotsale
             padding: 70px 65px
+            background: url("../image/bg-pattern.jpg") no-repeat center
+            background-size: cover
             h2
                 margin-bottom: 27px
                 padding: 0 32px
@@ -70,6 +74,9 @@ main
                 line-height: 1.87em                
         .case
             padding: 0
+            background-color: #4B3A33
+            &:nth-child(2)
+                background-color: #241B17
             .content
                 position: relative
                 margin: 0
@@ -88,17 +95,20 @@ main
                 font-family: 'Oswald'
                 text-transform: uppercase
                 font-size: 20px
+                color: #F9C947
             p
                 margin: 0
                 font-size: 14px
                 font-weight: 500
                 letter-spacing: 0.04em
+                color: #fff
         .connect
             padding: 33px 22px 50px
             h3
                 margin-bottom: 3px
                 font-size: 17px
                 letter-spacing: 0.02em
+                color: #ABABAB
             p
                 margin-bottom: 31px
                 font-size: 30px
@@ -113,6 +123,7 @@ main
                 padding: 0 26px 0 20px
             .post-content
                 padding: 20px 16px
+                background-color: #DDDAD3
                 span
                     display: block
                     font-size: 12px
@@ -128,6 +139,15 @@ main
                     text-decoration: none
                     &:hover
                         color: #F9C947
+            &::before
+                content: ""
+                position: absolute
+                top: 6px
+                left: -8px
+                width: 8px
+                height: 95%
+                background-image: url(../image/separator-light-vertical.png)
+                background-size: contain
 
 
 
