@@ -1,4 +1,5 @@
 * {
+  outline: solid 1px red;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -11,7 +12,11 @@ figure {
 
 figure img {
   width: 100%;
-  opacity: 0.2;
+  opacity: 0.5;
+}
+
+img {
+  width: 100%;
 }
 
 h1 {
@@ -65,10 +70,6 @@ main {
 main .container {
   max-width: 1084px;
   background-color: #fff;
-}
-
-main section img {
-  width: 100%;
 }
 
 main section .hotsale-img {
@@ -208,15 +209,28 @@ main section .connect-posts::before {
   background-size: contain;
 }
 
-footer {
-  background-color: blue;
-}
-
 footer .container {
   max-width: 1084px;
 }
 
-footer .col {
-  height: 300px;
+footer h3 {
+  margin-bottom: 18px;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+}
+
+footer .showcase {
+  padding: 38px 27px 0 0;
+  font-size: 14px;
+}
+
+footer .showcase img {
+  margin-bottom: 17px;
+}
+
+footer .showcase p {
+  margin-bottom: 21px;
+  font-size: 14px;
+  word-spacing: -0.01em;
 }
 /*# sourceMappingURL=index.css.map */
