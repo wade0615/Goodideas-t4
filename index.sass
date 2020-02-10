@@ -152,7 +152,7 @@ main
 
 
 footer
-    // background-color: blue
+    background-color: #F9C947
     .container
         max-width: 1084px
     .col-12
@@ -161,7 +161,7 @@ footer
         margin-bottom: 18px
         font-size: 18px
         letter-spacing: 0.03em
-    .showcase
+    .showcase,.blog
         padding: 38px 27px 0 0 
         font-size: 14px
         img
@@ -170,3 +170,32 @@ footer
             margin-bottom: 21px
             font-size: 14px
             word-spacing: -0.01em
+    .blog
+        padding: 38px 27px
+        .posts
+            margin-bottom: 36px
+            &:last-child
+                margin: 0
+            img
+                margin-bottom: 0
+            
+        .posts-date
+            text-align: center
+            background: url(../image/bg-time.png) no-repeat center 0
+            background-size: contain
+            p
+                font-size: 16px
+                color: white
+                line-height: 1.4
+
+        .posts-content
+            padding: 0 0 0 8px
+        h4
+            font-family: 'Oswald'
+            font-size: 15px
+            letter-spacing: 0.02em
+        p
+            margin: 0
+            font-size: 13px
+            letter-spacing: -0.01em
+            line-height: 1.65

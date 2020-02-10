@@ -209,6 +209,10 @@ main section .connect-posts::before {
   background-size: contain;
 }
 
+footer {
+  background-color: #F9C947;
+}
+
 footer .container {
   max-width: 1084px;
 }
@@ -219,18 +223,63 @@ footer h3 {
   letter-spacing: 0.03em;
 }
 
-footer .showcase {
+footer .showcase, footer .blog {
   padding: 38px 27px 0 0;
   font-size: 14px;
 }
 
-footer .showcase img {
+footer .showcase img, footer .blog img {
   margin-bottom: 17px;
 }
 
-footer .showcase p {
+footer .showcase p, footer .blog p {
   margin-bottom: 21px;
   font-size: 14px;
   word-spacing: -0.01em;
+}
+
+footer .blog {
+  padding: 38px 27px;
+}
+
+footer .blog .posts {
+  margin-bottom: 36px;
+}
+
+footer .blog .posts:last-child {
+  margin: 0;
+}
+
+footer .blog .posts img {
+  margin-bottom: 0;
+}
+
+footer .blog .posts-date {
+  text-align: center;
+  background: url(../image/bg-time.png) no-repeat center 0;
+  background-size: contain;
+}
+
+footer .blog .posts-date p {
+  font-size: 16px;
+  color: white;
+  line-height: 1.4;
+}
+
+footer .blog .posts-content {
+  padding: 0 0 0 8px;
+}
+
+footer .blog h4 {
+  font-family: 'Oswald';
+  font-size: 15px;
+  letter-spacing: 0.02em;
+}
+
+footer .blog p {
+  margin: 0;
+  font-size: 13px;
+  letter-spacing: -0.01em;
+  line-height: 1.65;
 }
 /*# sourceMappingURL=index.css.map */
