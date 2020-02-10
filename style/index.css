@@ -1,5 +1,4 @@
 * {
-  outline: solid 1px red;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -12,7 +11,7 @@ figure {
 
 figure img {
   width: 100%;
-  opacity: 0.5;
+  opacity: 0.2;
 }
 
 img {
@@ -55,12 +54,17 @@ header nav .customize-navbar-brand {
 }
 
 header nav .customize-nav-item {
-  margin-right: 8px;
+  margin-right: 16px;
+  font-size: 19px;
   color: #E0DFDF;
 }
 
 header nav .customize-nav-item:hover {
   color: #F9C947;
+}
+
+header nav .customize-nav-item:last-child {
+  margin-right: 9px;
 }
 
 main {
@@ -223,16 +227,16 @@ footer h3 {
   letter-spacing: 0.03em;
 }
 
-footer .showcase, footer .blog {
+footer .showcase {
   padding: 38px 27px 0 0;
   font-size: 14px;
 }
 
-footer .showcase img, footer .blog img {
+footer .showcase img {
   margin-bottom: 17px;
 }
 
-footer .showcase p, footer .blog p {
+footer .showcase p {
   margin-bottom: 21px;
   font-size: 14px;
   word-spacing: -0.01em;
@@ -281,5 +285,23 @@ footer .blog p {
   font-size: 13px;
   letter-spacing: -0.01em;
   line-height: 1.65;
+}
+
+footer .community {
+  padding: 38px 0 0 33px;
+}
+
+footer .community input {
+  width: 100%;
+  height: 38px;
+  margin-bottom: 6px;
+}
+
+footer .community button {
+  width: 98px;
+  margin-bottom: 53px;
+  color: white;
+  background-color: #241B17;
+  border-radius: 25%;
 }
 /*# sourceMappingURL=index.css.map */
