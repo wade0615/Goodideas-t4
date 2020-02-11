@@ -1,3 +1,28 @@
+* {
+  outline: solid 1px black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+figure {
+  position: absolute;
+  top: 0;
+  left: -18px;
+}
+
+figure img {
+  opacity: 0.4;
+}
+
+img {
+  width: 100%;
+}
+
+.customize-font {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+}
+
 h1 {
   margin: 0;
   color: #F9C947;
@@ -9,5 +34,194 @@ h1 {
 .customize-font {
   font-family: 'Oswald';
   text-transform: uppercase;
+}
+
+header {
+  padding: 35px 15px 20px;
+  background-color: #241B17;
+}
+
+header nav {
+  max-width: 1084px;
+  margin: 0 auto;
+}
+
+header nav.customize-navbar {
+  padding: 0;
+  text-transform: uppercase;
+}
+
+header nav .customize-navbar-brand {
+  padding: 0;
+  font-size: 17px;
+  color: #E0DFDF;
+  letter-spacing: .45em;
+  white-space: normal;
+}
+
+header nav .customize-nav-item {
+  font-size: 19px;
+  color: #E0DFDF;
+}
+
+@media (min-width: 991px) {
+  header nav .customize-nav-item {
+    margin-right: 16px;
+  }
+  header nav .customize-nav-item:last-child {
+    margin-right: 9px;
+  }
+}
+
+header nav .customize-nav-item:hover {
+  color: #F9C947;
+}
+
+main {
+  background: #FFFFFF url("../image/bg-body.png");
+}
+
+main .wrapper {
+  max-width: 1084px;
+  background-color: #fff;
+}
+
+main section .hotsale-img {
+  padding: 0;
+}
+
+main section .hotsale-img img {
+  height: 100%;
+}
+
+main section .hotsale {
+  padding: 70px 65px;
+  background: url("../image/bg-pattern.jpg") no-repeat center;
+  background-size: cover;
+}
+
+main section .hotsale h2 {
+  margin-bottom: 27px;
+  padding: 0 32px;
+  line-height: 1.38em;
+  font-size: 42px;
+  letter-spacing: 0.022em;
+  text-align: center;
+}
+
+main section .hotsale p {
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: 0.11em;
+  line-height: 1.87em;
+}
+
+main section .case {
+  padding: 0;
+  background-color: #4B3A33;
+}
+
+main section .case:nth-child(2) {
+  background-color: #241B17;
+}
+
+main section .case .content {
+  position: relative;
+  margin: 0;
+  padding: 20px 22px 26px;
+  font-size: 14px;
+}
+
+main section .case .content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background-image: url(../image/separator-light.png);
+  background-size: contain;
+}
+
+main section .case h3 {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #F9C947;
+}
+
+main section .case p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+main section .connect {
+  padding: 33px 22px 50px;
+}
+
+main section .connect h3 {
+  margin-bottom: 3px;
+  font-size: 17px;
+  letter-spacing: 0.02em;
+  color: #ABABAB;
+}
+
+main section .connect p {
+  margin-bottom: 31px;
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  word-spacing: 0.43em;
+}
+
+main section .connect-posts h3 {
+  margin-bottom: 18px;
+  letter-spacing: 0.08em;
+}
+
+main section .connect-posts .cust-gutters {
+  padding: 0 26px 0 20px;
+}
+
+main section .connect-posts .post-content {
+  padding: 20px 16px;
+  background-color: #DDDAD3;
+}
+
+main section .connect-posts .post-content span {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 11px;
+}
+
+main section .connect-posts .post-content h4 {
+  font-size: 18px;
+  text-transform: none;
+  letter-spacing: 0.01em;
+  margin-bottom: 38px;
+}
+
+main section .connect-posts .post-content a {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}
+
+main section .connect-posts .post-content a:hover {
+  color: #F9C947;
+}
+
+main section .connect-posts::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: -8px;
+  width: 8px;
+  height: 95%;
+  background-image: url(../image/separator-light-vertical.png);
+  background-size: contain;
 }
 /*# sourceMappingURL=main.css.map */

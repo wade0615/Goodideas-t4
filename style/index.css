@@ -72,7 +72,7 @@ main {
   background: #FFFFFF url("../image/bg-body.png");
 }
 
-main .container {
+main .wrapper {
   max-width: 1084px;
   background-color: #fff;
 }

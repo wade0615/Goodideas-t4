@@ -6,6 +6,28 @@
     @media (max-width: 767px)
         @content
 
+@mixin rwd-lg
+    @media (min-width: 991px)
+        @content
+
+// width: 1440px 合板
+*
+    outline: solid 1px black
+    box-sizing: border-box
+
+figure
+    position: absolute
+    top: 0
+    left: -18px
+    img
+        opacity: 0.4
+img
+    width: 100%
+.customize-font
+    font-family: 'Oswald'
+    text-transform: uppercase
+
+
 h1
     margin: 0
     color: #F9C947
@@ -16,3 +38,131 @@ h1
 .customize-font
     font-family: 'Oswald'
     text-transform: uppercase
+
+header
+    padding: 35px 15px 20px
+    background-color: #241B17
+    nav
+        max-width: 1084px
+        margin: 0 auto
+        &.customize-navbar
+            padding: 0
+            text-transform: uppercase
+        .customize-navbar-brand
+            padding: 0
+            font-size: 17px
+            color: #E0DFDF
+            letter-spacing: .45em
+            white-space: normal
+        .customize-nav-item
+            font-size: 19px
+            color:  #E0DFDF
+            @include rwd-lg
+                margin-right: 16px
+                &:last-child
+                    margin-right: 9px
+            &:hover
+                color: #F9C947
+
+main
+    background: #FFFFFF url("../image/bg-body.png")
+    .wrapper
+        max-width: 1084px
+        background-color: #fff
+    section
+        .hotsale-img
+            padding: 0
+            img
+                height: 100%
+        .hotsale
+            padding: 70px 65px
+            background: url("../image/bg-pattern.jpg") no-repeat center
+            background-size: cover
+            h2
+                margin-bottom: 27px
+                padding: 0 32px
+                line-height: 1.38em
+                font-size: 42px
+                letter-spacing: 0.022em
+                text-align: center
+            p
+                margin: 0
+                font-size: 15px
+                letter-spacing: 0.11em
+                line-height: 1.87em                
+        .case
+            padding: 0
+            background-color: #4B3A33
+            &:nth-child(2)
+                background-color: #241B17
+            .content
+                position: relative
+                margin: 0
+                padding: 20px 22px 26px
+                font-size: 14px
+                &::before
+                    content: ""
+                    position: absolute
+                    top: 0
+                    left: 0
+                    width: 100%
+                    height: 8px
+                    background-image: url(../image/separator-light.png)
+                    background-size: contain
+            h3
+                font-family: 'Oswald'
+                text-transform: uppercase
+                font-size: 20px
+                color: #F9C947
+            p
+                margin: 0
+                font-size: 14px
+                font-weight: 500
+                letter-spacing: 0.04em
+                color: #fff
+        .connect
+            padding: 33px 22px 50px
+            h3
+                margin-bottom: 3px
+                font-size: 17px
+                letter-spacing: 0.02em
+                color: #ABABAB
+            p
+                margin-bottom: 31px
+                font-size: 30px
+                line-height: 1.2
+                letter-spacing: 0.01em
+                word-spacing: 0.43em
+        .connect-posts
+            h3
+                margin-bottom: 18px
+                letter-spacing: 0.08em
+            .cust-gutters
+                padding: 0 26px 0 20px
+            .post-content
+                padding: 20px 16px
+                background-color: #DDDAD3
+                span
+                    display: block
+                    font-size: 12px
+                    margin-bottom: 11px
+                h4
+                    font-size: 18px
+                    text-transform: none
+                    letter-spacing: 0.01em
+                    margin-bottom: 38px
+                a
+                    font-size: 15px
+                    color: black
+                    text-decoration: none
+                    &:hover
+                        color: #F9C947
+            &::before
+                content: ""
+                position: absolute
+                top: 6px
+                left: -8px
+                width: 8px
+                height: 95%
+                background-image: url(../image/separator-light-vertical.png)
+                background-size: contain
