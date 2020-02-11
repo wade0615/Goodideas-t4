@@ -347,4 +347,10 @@ footer .community a {
 footer .community a:nth-child(5) {
   margin-left: 5px;
 }
+
+@media (min-width: 991px) {
+  footer .copyright {
+    color: red;
+  }
+}
 /*# sourceMappingURL=index.css.map */

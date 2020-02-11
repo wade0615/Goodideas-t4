@@ -13,6 +13,18 @@ img
     width: 100%
 
 // width: 1440px 合板
+@mixin rwd-sm
+    @media (min-width: 575px)
+        @content
+
+@mixin rwd-md
+    @media (min-width: 767px)
+        @content
+
+@mixin rwd-lg
+    @media (min-width: 991px)
+        @content
+        
 h1
     margin: 0
     color: #F9C947
@@ -243,4 +255,5 @@ footer
             &:nth-child(5)
                 margin-left: 5px
     .copyright
-        
+        @include rwd-lg
+            color: red
