@@ -207,6 +207,10 @@ main section .connect-posts > div {
   margin: 0;
 }
 
+main section .connect-posts > div > div {
+  margin-bottom: 15px;
+}
+
 main section .connect-posts .cust-gutters {
   padding: 0 0 15px;
 }
