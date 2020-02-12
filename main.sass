@@ -149,11 +149,13 @@ main
                 letter-spacing: 0.08em
             >div
                 margin: 0
-                >div
-                    margin-bottom: 15px
             .cust-gutters
                 padding: 0 0 15px
                 @include rwd-sm
+                    padding: 0 12px
+                @include rwd-md
+                    padding: 0 0 15px
+                @include rwd-lg
                     padding: 0 26px 0 20px
             .post-content
                 padding: 20px 16px

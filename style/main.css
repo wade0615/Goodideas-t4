@@ -207,15 +207,23 @@ main section .connect-posts > div {
   margin: 0;
 }
 
-main section .connect-posts > div > div {
-  margin-bottom: 15px;
-}
-
 main section .connect-posts .cust-gutters {
   padding: 0 0 15px;
 }
 
 @media (min-width: 575px) {
+  main section .connect-posts .cust-gutters {
+    padding: 0 12px;
+  }
+}
+
+@media (min-width: 767px) {
+  main section .connect-posts .cust-gutters {
+    padding: 0 0 15px;
+  }
+}
+
+@media (min-width: 991px) {
   main section .connect-posts .cust-gutters {
     padding: 0 26px 0 20px;
   }
