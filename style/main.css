@@ -1,5 +1,4 @@
 * {
-  outline: solid 1px black;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -275,5 +274,256 @@ main section .connect-posts .post-content a:hover {
     background-image: url(../image/separator-light-vertical.png);
     background-size: contain;
   }
+}
+
+footer {
+  background-color: #F9C947;
+}
+
+footer .container {
+  max-width: 1084px;
+}
+
+footer h3 {
+  margin-bottom: 18px;
+  font-size: 22px;
+  letter-spacing: 0.03em;
+}
+
+@media (min-width: 767px) {
+  footer h3 {
+    font-size: 18px;
+  }
+}
+
+footer .showcase, footer .blog, footer .community {
+  padding: 40px 20px;
+}
+
+footer .showcase, footer .blog {
+  position: relative;
+}
+
+@media (min-width: 991px) {
+  footer .showcase::after, footer .blog::after {
+    content: "";
+    position: absolute;
+    top: 10%;
+    right: -4px;
+    width: 8px;
+    height: 85%;
+    background: url(../image/separator-dark-vertical.png);
+    background-size: contain;
+  }
+}
+
+footer .showcase {
+  font-size: 18px;
+}
+
+@media (min-width: 767px) {
+  footer .showcase {
+    font-size: 14px;
+  }
+  footer .showcase::after {
+    content: "";
+    position: absolute;
+    top: 10%;
+    right: -4px;
+    width: 8px;
+    height: 85%;
+    background: url(../image/separator-dark-vertical.png);
+    background-size: contain;
+  }
+}
+
+@media (min-width: 1199px) {
+  footer .showcase {
+    padding: 38px 27px 0 0;
+  }
+}
+
+footer .showcase img {
+  margin-bottom: 17px;
+}
+
+footer .showcase p {
+  margin-bottom: 21px;
+  word-spacing: -0.01em;
+}
+
+footer .showcase a {
+  text-decoration: underline;
+}
+
+@media (min-width: 1199px) {
+  footer .blog {
+    padding: 38px 27px 52px;
+  }
+}
+
+footer .blog .posts {
+  margin-bottom: 36px;
+}
+
+footer .blog .posts:last-child {
+  margin: 0;
+}
+
+footer .blog .posts img {
+  margin-bottom: 0;
+}
+
+footer .blog .posts-date {
+  text-align: center;
+}
+
+@media (min-width: 767px) {
+  footer .blog .posts-date {
+    padding: 6px;
+  }
+}
+
+@media (min-width: 991px) {
+  footer .blog .posts-date {
+    padding: 0;
+  }
+}
+
+footer .blog .posts-date > div {
+  padding: 10px;
+  background: url(../image/bg-time.png) no-repeat center;
+  background-size: contain;
+}
+
+footer .blog .posts-date p {
+  font-size: 16px;
+  color: white;
+  line-height: 1.4;
+}
+
+footer .blog .posts-content {
+  padding: 0 0 0 8px;
+}
+
+footer .blog h4 {
+  font-family: 'Oswald';
+  font-size: 20px;
+  letter-spacing: 0.02em;
+}
+
+@media (min-width: 767px) {
+  footer .blog h4 {
+    font-size: 15px;
+  }
+}
+
+footer .blog p {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: -0.01em;
+  line-height: 1.65;
+}
+
+@media (min-width: 767px) {
+  footer .blog p {
+    font-size: 13px;
+  }
+}
+
+footer .community {
+  position: relative;
+  font-size: 16px;
+}
+
+@media (min-width: 1199px) {
+  footer .community {
+    padding: 38px 0 0 33px;
+  }
+}
+
+footer .community h3:nth-child(4) {
+  margin-bottom: 5px;
+}
+
+footer .community input {
+  width: 100%;
+  height: 38px;
+  margin-bottom: 6px;
+}
+
+footer .community button {
+  width: 98px;
+  margin-bottom: 53px;
+  color: white;
+  background-color: #241B17;
+  border-radius: 25%;
+}
+
+@media (min-width: 991px) {
+  footer .community::before {
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    width: 90%;
+    height: 8px;
+    background: url(../image/separator-dark.png);
+    background-size: contain;
+  }
+}
+
+footer .community a {
+  margin-left: 27px;
+  font-size: 41px;
+  color: black;
+}
+
+footer .community a:nth-child(5) {
+  margin-left: 5px;
+}
+
+footer .copyright {
+  color: #BA8C31;
+}
+
+@media (min-width: 991px) {
+  footer .copyright {
+    margin: 0 -15px 0;
+  }
+}
+
+footer .copyright span {
+  float: inherit;
+  padding: 0;
+  letter-spacing: -0.02em;
+}
+
+@media (min-width: 767px) {
+  footer .copyright span {
+    float: left;
+    padding: 5px 0;
+  }
+}
+
+footer .copyright nav {
+  display: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media (min-width: 767px) {
+  footer .copyright nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+footer .copyright nav a {
+  padding: 5px 0;
+  margin-left: 16px;
+  color: #BA8C31;
 }
 /*# sourceMappingURL=main.css.map */

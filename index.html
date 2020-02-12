@@ -11,8 +11,8 @@
     <!-- 引用fontawesome -->
     <script src="https://kit.fontawesome.com/604bf1ed54.js" crossorigin="anonymous"></script>
     <!-- 誰都不能覆蓋我的css -->
-    <!-- <link rel="stylesheet" href="./style/main.css"> -->
-    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <!-- <link rel="stylesheet" href="./style/index.css"> -->
 </head>
 <body>
     <header>
@@ -107,19 +107,21 @@
     <footer>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="showcase col-12 col-md-4">
+                <div class="showcase col-12 col-md-6 col-lg-4">
                     <h3 class="customize-font">visit our showroom</h3>
                     <img src="./image/show-room.png" alt="">
                     <p>This is just a place holder, so you can see what the site would look like.</p>
                     <p>760-962-9541</p>
                     <a>info@carvedcreations.com</a>
                 </div>
-                <div class="blog col-12 col-md-4">
+                <div class="blog col-12 col-md-6 col-lg-4">
                     <h3 class="customize-font">recent blog posts</h3>
                     <div class="posts row no-gutters">
                         <div class="posts-date col-2">
-                            <p class="customize-font">APR</p>
-                            <p class="customize-font">16</p>
+                            <div>
+                                <p class="customize-font">APR</p>
+                                <p class="customize-font">16</p>
+                            </div>
                         </div>
                         <div class="posts-content col-10">
                             <h4>This is just a place holder.</h4>
@@ -128,8 +130,10 @@
                     </div>
                     <div class="posts row no-gutters">
                         <div class="posts-date col-2">
-                            <p class="customize-font">APR</p>
-                            <p class="customize-font">15</p>
+                            <div>
+                                <p class="customize-font">APR</p>
+                                <p class="customize-font">15</p>
+                            </div>
                         </div>
                         <div class="posts-content col-10">
                             <h4>This is just a place holder.</h4>
@@ -138,8 +142,10 @@
                     </div>
                     <div class="posts row no-gutters">
                         <div class="posts-date col-2">
-                            <p class="customize-font">APR</p>
-                            <p class="customize-font">14</p>
+                            <div>
+                                <p class="customize-font">APR</p>
+                                <p class="customize-font">14</p>
+                            </div>
                         </div>
                         <div class="posts-content col-10">
                             <h4>This is just a place holder.</h4>
@@ -147,9 +153,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="community col-12 col-md-4">
+                <div class="community col-12 col-md-12 col-lg-4">
                     <h3 class="customize-font">join our newsletter</h3>
-                    <input type="text">
+                    <input type="text" placeholder="Enter Email Address Here For Update">
                     <button class="customize-font">sign up</button>
                     <h3 class="customize-font">social media</h3>
                     <a href="##"><i class="fab fa-facebook-square"></i></a>
@@ -159,7 +165,13 @@
             </div>
             <div class="copyright customize-font">
                 <span>&copy copyright 2012. all rights reserved.</span>
-                <nav></nav>
+                <nav class="nav">
+                    <a class="customize-font customize-nav-item" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="customize-font customize-nav-item" href="#">about</a>
+                    <a class="customize-font customize-nav-item" href="#">gallery</a>
+                    <a class="customize-font customize-nav-item" href="#">blog</a>
+                    <a class="customize-font customize-nav-item" href="#">contact</a>
+                </nav>
             </div>
         </div>
     </footer>
