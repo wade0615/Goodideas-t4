@@ -475,6 +475,10 @@ footer .community button {
   border-radius: 25%;
 }
 
+footer .community button:hover {
+  cursor: pointer;
+}
+
 @media (min-width: 991px) {
   footer .community::before {
     content: "";
