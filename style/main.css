@@ -292,7 +292,10 @@ main section .connect-posts .post-content a:hover {
 }
 
 footer {
+  border-top: solid 2px white;
   background-color: #F9C947;
+  -webkit-box-shadow: 0px -1px 10px black;
+          box-shadow: 0px -1px 10px black;
 }
 
 footer .container {
