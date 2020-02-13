@@ -368,6 +368,7 @@ footer .showcase p {
 }
 
 footer .showcase a {
+  color: inherit;
   text-decoration: underline;
 }
 
