@@ -59,14 +59,17 @@ header
             letter-spacing: .45em
             white-space: normal
         .customize-nav-item
+            padding: 0.5em
             font-size: 19px
+            letter-spacing: -0.01em
             color:  #E0DFDF
-            @include rwd-lg
-                margin-right: 16px
-                &:last-child
-                    margin-right: 9px
             &:hover
                 color: #F9C947
+                text-decoration: none
+            @include rwd-lg
+                margin-right: 14px
+                &:last-child
+                    margin-right: 8px
 
 main
     background: #FFFFFF url("../image/bg-body.png")
