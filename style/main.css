@@ -541,4 +541,9 @@ footer .copyright nav a {
   margin-left: 16px;
   color: #BA8C31;
 }
+
+footer .copyright nav a:hover {
+  color: #241B17;
+  text-decoration: none;
+}
 /*# sourceMappingURL=main.css.map */
